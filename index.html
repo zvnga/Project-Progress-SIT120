@@ -1,0 +1,45 @@
+<!-- This code was written by Zunga Siakalima for the purpose of displaying the Brain Dump web page. The code displays an interactive interface for the site.   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Dump</title>
+
+        <!-- This links the css file. Practically ensuring that anything written in the css tab will apply the changes throughout. -->
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Hi! Welcome back to Brain Dump</h1> 
+        <form id="new-task-form">
+        <input 
+            type="text"
+            name="new-task-input"
+            id="new-task-input"
+            placeholder="Add a reminder" />
+        <input 
+            type="submit" 
+            id="new-task-submit"
+            value="Add task" />
+        
+        </form>
+    </header>
+
+    <main>
+
+        <section class="task-list">
+            <h2>Reminders</h2>
+             
+            <div id="tasks">
+
+            </div>
+        </section>
+         
+    </main>
+    <script src="main.js"></script>
+
+</body>
+</html>
